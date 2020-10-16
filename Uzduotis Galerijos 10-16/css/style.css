@@ -1,0 +1,17 @@
+/* background color */
+body {
+  width: 100%; }
+
+.container {
+  background-color: #bee5eb;
+  margin: 0 auto;
+  width: 80%; }
+
+h1, h4 {
+  text-align: center; }
+
+.container2 {
+  margin: 0 auto;
+  width: 80%; }
+
+/*# sourceMappingURL=style.css.map */

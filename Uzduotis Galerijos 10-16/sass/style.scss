@@ -1,0 +1,19 @@
+@import 'var';
+@import 'components';
+@import "mixins";
+
+body{
+  width: 100%;
+}
+.container{
+  background-color: #bee5eb;
+  margin: 0 auto;
+  width: 80%;
+}
+h1, h4{
+  text-align: center;
+}
+.flex-container{
+  margin: 0 auto;
+  width: 80%;
+}

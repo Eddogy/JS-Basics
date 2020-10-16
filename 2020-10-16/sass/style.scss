@@ -1,0 +1,19 @@
+@import 'var';
+@import 'components';
+@import "mixins";
+nav{
+  background-color: $navColor;
+  @include round(80px);
+  li{
+    display: $inlineBlock;
+    a{
+      color: $navTextColor;
+      @extend .button;
+      text-decoration: none;
+      &:hover
+      {
+        color: $hoverColor;
+      }
+    }
+  }
+}
